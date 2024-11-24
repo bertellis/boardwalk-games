@@ -26,6 +26,15 @@ h1, h2, h3 {
     color: var(--highight-color);
 }
 
+/*Navbar*/
+
+#navbar {
+    background-color: var(--primary-color);
+}
+#navbar .logo {
+    width: 30px;
+}
+
 /*Grid visualising for css testing*/
 
 /*.container, .row {
