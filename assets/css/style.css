@@ -21,8 +21,16 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+h1, h2 {
     text-transform: uppercase;
 }
+
+h2 {
+    margin-bottom: 2rem;
+}
+
 .sub-heading-color {
     color: var(--highight-color);
 }
@@ -49,6 +57,58 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
 }
 
+/*Services*/
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highight-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
+/*Media queries*/
+
+/*Medium screens (768px and up)*/
+@media screen and (min-width:768px) {
+    /*make all service cards the same height for consistency*/
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/*large screens (992px and up)*/
+@media screen and (min-width:992px) {
+    /*make all service cards the same height for consistency*/
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/*extra large screens (1200px and up)*/
+@media screen and (min-width:1200px) {
+    /*make all service cards the same height for consistency*/
+    #services .card-body {
+        min-height: 218px;
+    }
+}
+
+/*xxl screens (1400px and up)*/
+@media screen and (min-width:1400px) {
+    /*make all service cards the same height for consistency*/
+    #services .card-body {
+        min-height: 195px;
+    }
+}
 
 /*Grid visualising for css testing*/
 
