@@ -41,6 +41,10 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+#bg-fill {
+    background-color: var(--highlight-color);
+    color: white;
+}
 
 /*Buttons*/
 
@@ -105,7 +109,10 @@ h2 {
 }
 /*Events*/
 
-
+#bg-fill {
+    background-color: var(--highlight-color);
+    color: white;
+}
 
 /* Footer / contact */
 
